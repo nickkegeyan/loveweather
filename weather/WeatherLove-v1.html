@@ -217,12 +217,12 @@ function howRu(ctemp){
 
  search.onclick = function() {
     var formInput = document.getElementById("formInput").value;
-
+	console.log("forminput="+formInput);
     for (i=0; i<negLex.length; i++){
        if (negLex[i] == formInput) {
           alert(negLex[i]);
        } else {
-          console.log("not working yet");
+          alert("not working yet");
        }
     }
  };
